@@ -2,6 +2,7 @@
     margin:16px;
     display:inline-block;
     position: relative;
+    color: white;
     
 }
 .hover_over_me{
@@ -13,8 +14,8 @@
     background-color: grey;
     padding: 8px;
     border-radius: 4px;
-    display: none; 
-    color:white;
+    display: none;
+    
 }
 .container:hover .tooltip{
     display: block;
