@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 .container{
     margin:16px;
     display:inline-block;
@@ -11,7 +15,7 @@
     bottom: -40px;
     position: absolute;
     background-color: grey;
-    padding: 9px;
+    padding: 8px;
     border-radius: 4px;
     display: none; 
     color:white;
