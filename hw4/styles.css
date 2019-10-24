@@ -2,13 +2,11 @@
 *{
     box-sizing: border-box;
 }
-.container{
+
+.hover_over_me{
     margin:16px;
     display:inline-block;
     position: relative;
-    
-}
-.hover_over_me{
     border-bottom: 1px dotted black;
 }
 .tooltip{
@@ -20,6 +18,6 @@
     display: none; 
     color:white;
 }
-.container:hover .tooltip{
+.hover_over_me:hover .tooltip{
     display: block;
 }
