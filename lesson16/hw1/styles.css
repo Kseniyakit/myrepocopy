@@ -21,7 +21,8 @@
 }
 
 .form-title {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
 }
 
@@ -55,9 +56,6 @@
 }
 
 .form-control {
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
-.form-control:first-child {
-    margin-top: 0;
-}
