@@ -15,6 +15,7 @@ table, td, th{
 td, th{
     text-align: right;
     line-height: 31px;
+    vertical-align: center;
     padding: 4px;
 }
 th{
@@ -32,4 +33,5 @@ tbody  > tr:nth-child(odd){
 tbody > tr:hover{
     background-color: #aaa;
     color: white;
+    cursor: pointer;
 }
