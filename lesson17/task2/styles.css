@@ -33,5 +33,4 @@ tbody  > tr:nth-child(odd){
 tbody > tr:hover{
     background-color: #aaa;
     color: white;
-    cursor: pointer;
 }
