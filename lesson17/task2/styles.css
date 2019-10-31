@@ -13,8 +13,8 @@ table, td, th{
     border-collapse: collapse;
 }
 td, th{
-    padding: 4px;
     text-align: right;
+    line-height: 40px;
 }
 th{
     background-color: aqua;
