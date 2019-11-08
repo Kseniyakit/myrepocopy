@@ -21,8 +21,7 @@ body{
 main{
     flex: 1 0 auto;
     display: flex;
-    font-size: 1.25em;
-    padding: 0.5em;
+    font-size: 1.3em;
 }
 
 .navigation {
@@ -70,6 +69,7 @@ main{
 
 .units-list li {
     line-height: 1.75em;
+   
 }
 
 .css-units {
