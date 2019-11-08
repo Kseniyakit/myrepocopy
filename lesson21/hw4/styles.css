@@ -38,20 +38,19 @@ main{
 .nav-list-item {
     list-style: none;
     background-color: #808080;
-    padding: 0.5em;
+    padding: 0;
     margin-bottom: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: .8em;
     color: white;
 }
 
 .nav-list-link {
-    max-width: 100%;
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 0;
+    padding: 0.5em;
 }
 
 .section_header {
