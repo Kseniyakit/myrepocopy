@@ -51,10 +51,16 @@ main{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.section {
+    width: 60%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
 
 .section_header {
     font-size: 5vw;
-    margin: 1em auto;
+   margin: auto;
 }
 
 .units-list {
@@ -73,12 +79,6 @@ main{
     font-size: 1.125em;
 }
 
-.section {
-    width: 60%;
-    padding: 0.5em;
-    display: flex;
-    flex-direction: column;
-}
 
 .news {
     width: 20%;
