@@ -60,7 +60,7 @@ main{
 
 .section__header {
     font-size: 5vw;
-  margin: auto;
+align-self: center;
 }
 .section p{
     margin: 0;
@@ -68,7 +68,7 @@ main{
 
 .units-list {
     padding: 0;
-    margin-left: 2em;
+    padding-left: 2em;
   
 }
 
