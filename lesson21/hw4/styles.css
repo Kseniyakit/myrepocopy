@@ -60,7 +60,7 @@ main{
 
 .section__header {
     font-size: 5vw;
-  align-self: center;
+  margin: auto;
 }
 .section p{
     margin: 0;
