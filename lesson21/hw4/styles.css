@@ -60,7 +60,7 @@ main{
 
 .section_header {
     font-size: 5vw;
-   margin: auto;
+  align-self: center;
 }
 
 .units-list {
