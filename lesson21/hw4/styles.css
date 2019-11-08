@@ -37,8 +37,7 @@ main{
 .nav-list-item {
     list-style: none;
     background-color: #808080;
-    padding: 0;
-    margin-bottom: 0.5em;
+    
 }
 
 .nav-list-link {
@@ -49,7 +48,7 @@ main{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: 15px;
+    margin-bottom: 0.5em;
 }
 .section {
     width: 60%;
