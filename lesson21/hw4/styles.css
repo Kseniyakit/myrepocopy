@@ -40,10 +40,8 @@ main{
     background-color: #808080;
     padding: 0;
     margin-bottom: 0.5em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     color: white;
+    font-size: 2em;
 }
 
 .nav-list-link {
@@ -51,6 +49,9 @@ main{
     color: white;
     text-decoration: none;
     padding: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .section_header {
