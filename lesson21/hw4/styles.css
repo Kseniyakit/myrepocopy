@@ -14,52 +14,11 @@ body{
 .header{
     display: flex;
     background: linear-gradient(60deg, red, orange);
-    height: 10%;
     color: #fff;
-
-}
-h1{
-    margin: auto;
-    
-    
-}
-main{
-    flex: 1 0 auto;
-    display: flex;
-    font-size: 1.25em;
-    padding: 0.5em;
-}
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #555;
-    font-size: 16px;
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    display: flex;
-    background: linear-gradient(60deg, red, orange);
     justify-content: center;
-    color: #fff;
 }
 
-/* h1 {
-    margin: auto;
-   
-    padding: .5em; 
-} */
-
-main {
+main{
     flex: 1 0 auto;
     display: flex;
     font-size: 1.25em;
