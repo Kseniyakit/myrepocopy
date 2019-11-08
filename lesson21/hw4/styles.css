@@ -53,15 +53,13 @@ main{
 .section {
     width: 60%;
     padding: 0.5em;
-    display: flex;
-    flex-direction: column;
     font-size: 1.25em
 }
 
 .section__header {
     font-size: 5vw;
     display: block;
-align-self: center;
+text-align: center;
 
 }
 .section p{
