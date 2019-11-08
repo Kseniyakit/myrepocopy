@@ -48,7 +48,6 @@ body {
 
 .header {
     display: flex;
-    height: 30vh;
     background: linear-gradient(60deg, red, orange);
     justify-content: center;
     color: #fff;
