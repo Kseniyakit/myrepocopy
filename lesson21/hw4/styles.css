@@ -49,6 +49,7 @@ main{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-size: 15px;
 }
 .section {
     width: 60%;
