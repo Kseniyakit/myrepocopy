@@ -45,9 +45,10 @@ main {
 }
 
 .navigation {
-    width: 25%;
+    width: 20%;
     padding: 0.5em;
     margin-top: 1em;
+    flex: 1;
 }
 
 .nav-list {
@@ -80,6 +81,7 @@ main {
     width: 80%;
     padding: 0.5em;
     font-size: 1.25em
+    flex: 1;
 }
 
 .section__header {
@@ -111,6 +113,7 @@ main {
 .news {
     width: 20%;
     padding: 0.5em;
+    flex: 1;
 }
 
 .footer {
@@ -157,5 +160,20 @@ main {
     }
     .news {
         width: 100%;
+    }
+}
+@media screen and (min-width: 900px){
+    .align {
+       
+        width: 80%;
+    }
+    .news {
+        width: 20%;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
     }
 }
