@@ -30,6 +30,11 @@ span {
 @media screen and (min-width:599px) {
     .products {
         display: flex;
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
     }
 }
 
