@@ -10,8 +10,6 @@
   text-transform: uppercase;
   display: flex;
   list-style-type: none;
-  align-items: center;
-  /*  height: 3em; */
   color: #fff;
 }
 .menu__item {
@@ -24,7 +22,6 @@
 }
 .menu__item:hover {
   background-color: #9acd32;
-  color: yellow;
 }
 
 .submenu {
@@ -44,6 +41,10 @@
 }
 .submenu__item:hover {
   color: #000;
+}
+
+.menu__item.menu__item_active {
+  color: yellow;
 }
 
 * {
