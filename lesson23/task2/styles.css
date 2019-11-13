@@ -38,7 +38,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 8px;
+  margin: 16px;
 }
 @media screen and (min-width: 599px) and (max-width: 899px) and (orientation: portrait) {
   .square {
