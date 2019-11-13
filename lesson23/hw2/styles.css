@@ -28,14 +28,25 @@ span {
   margin: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 599px) {
   .products {
     display: flex;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products {
+    width: 100%;
   }
 }
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+    flex-direction: row;
   }
 
   .products {
