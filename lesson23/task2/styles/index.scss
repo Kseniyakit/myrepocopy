@@ -33,11 +33,15 @@ body{
     height: 100px;
     background-color: #ff7f50;
     margin: 16px;
+    @include for-extra-small-landscape {
+        margin: 8px;
+    }
     @include for-medium-up-portrait{
         background-color: #8a2be2;
     }
     @include for-medium-up-landscape {
         background-color: #8a2be2;
+        margin: 8px;
     }
     @include for-large-up-portrait{
         background-color: #a61;
@@ -45,6 +49,7 @@ body{
     }
     @include for-large-up-landscape{
         background-color: #a61;
+        margin: 8px;
         
     }
     @include for-extralarge-up-portrait{
@@ -53,6 +58,7 @@ body{
     }
     @include for-extralarge-up-landscape{
         background-color: #c47;
+        margin: 8px;
         
     }
 

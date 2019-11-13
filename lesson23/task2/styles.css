@@ -40,6 +40,11 @@ body {
   background-color: #ff7f50;
   margin: 16px;
 }
+@media screen and (max-width: 600px) and (orientation: landscape) {
+  .square {
+    margin: 8px;
+  }
+}
 @media screen and (min-width: 599px) and (max-width: 899px) and (orientation: portrait) {
   .square {
     background-color: #8a2be2;
@@ -48,6 +53,7 @@ body {
 @media screen and (min-width: 599px) and (max-width: 899px) and (orientation: landscape) {
   .square {
     background-color: #8a2be2;
+    margin: 8px;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) and (orientation: portrait) {
@@ -58,6 +64,7 @@ body {
 @media screen and (min-width: 900px) and (max-width: 1199px) and (orientation: landscape) {
   .square {
     background-color: #a61;
+    margin: 8px;
   }
 }
 @media screen and (min-width: 1200px) and (orientation: portrait) {
@@ -68,6 +75,7 @@ body {
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #c47;
+    margin: 8px;
   }
 }
 
